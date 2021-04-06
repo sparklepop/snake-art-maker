@@ -12,6 +12,8 @@ then
     exit
 fi
 
+inkscape --query-id=snake --verb="StrokeToPath;EditSwapFillStroke;FileSave;FileClose" ${3} --with-gui --batch-process
+
 for x in $(seq "${1}")
 do
 	for y in $(seq "${2}")
