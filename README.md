@@ -9,9 +9,10 @@ Simplfiles making snake art for shared projects.
 - The snake can be any number of squares/rectangles/shapes.
 - The ids of the shapes must be named by their position with the top left starting ad "1-1"
 - The snake must be a path named "snake"
+## Usage
+- `./generate_snake.sh [height] [width] [snake svg path]`
+  - included example whould be
 ```shell
-./generate_snake.sh [height] [width] [snake svg path]
-# included example whould be
 ./generate_snake.sh 5 3 Snake.svg
 ```
 
