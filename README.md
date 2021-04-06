@@ -14,6 +14,7 @@ Simplfiles making snake art for shared projects.
 # included example whould be
 ./generate_snake.sh 5 3 Snake.svg
 ```
+
 ### generate_snake.sh does the following
 - converts the path to stroke and swaps fill with stroke to make an outline
 - generate PNGs for each of the shapes with the snake in the using the same basefile name and adding `_[Height]-[Width].png` at the end
